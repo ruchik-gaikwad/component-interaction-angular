@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'component-interaction';
+
+
+  first: any = "this is the string"
+
+  click() {
+    this.first = false
+  }
+  click2() {
+    this.first = true;
+  }
 }
